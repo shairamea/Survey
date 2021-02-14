@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<body>
+	<div id="container">
+		<header class="main-header">
+			<h1 id="title">Stranger Things Survey</h1>
+			<p id="description"><em>Only A True "Stranger Things" Fan</em></p>
+		</header>
+	<form id="survey-form">
+		<div class="form-group">
+			<label for="name">What is Dustin's last name?</label>
+			<input type="text" name="name" id="name" placeholder="Dustin's last name">
+		</div>
+		<div class="form-group">
+			<label for="real">What is Eleven's real name?</label>
+			<input type="real" name="real" id="real" placeholder="Eleven">
+		</div>
+
+		<div class="form-group">
+			<label for="dropdown-selector">Is Hopper alive? </label>
+			<select name="dropdown-selector" id="dropdown-selector">
+				<option value="">Select answer</option>
+				<option value="hawton">Yes</option>
+				<option value="hawthorne">I don't know</option>
+				<option value="hawkins">No</option>
+				<option value="haskell">Maybe</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="radio-selector">What is the best season?</label>
+
+			<input type="radio" name="lights" value="1">Season 1
+			<br>
+			<input type="radio" name="lights" value="2">Season 2
+			<br>
+			<input type="radio" name="lights" value="3">Season 3
+		</div>
+
+		<div class="form-group">
+			<label for="dropdown-selector-filmed">Where was Stranger Things filmed?</label>
+			<select name="dropdown-selector-filmed" id="dropdown-selector-filmed">
+				<option value="">Select place</option>
+				<option value="georgia">Georgia</option>
+				<option value="jackson">Jackson</option>
+				<option value="seattle">Seattle</option>
+				<option value="newyork">New York</option>
+				<option value="missouri">Missouri</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="radio-selector">When Joyce asks Will where he is through the lights, what does he answer?</label>
+
+			<input type="radio" name="lights" value="1">"Right Here"
+			<br>
+			<input type="radio" name="lights" value="2">"There"
+			<br>
+			<input type="radio" name="lights" value="3">"Upside Down"
+			<br>
+			<input type="radio" name="lights" value="4">"Home"
+		</div>
+
+		<div class="form-group">
+			<label for="dropdown-selector">What is the name of the town in which the story takes place?</label>
+			<select name="dropdown-selector" id="dropdown-selector">
+				<option value="">Select town</option>
+				<option value="hawton">Hawton</option>
+				<option value="hawthorne">Hawthorne</option>
+				<option value="hawkins">Hawkins</option>
+				<option value="haskell">Haskell</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="radio-selector">How old is Will Byers when he goes missing?</label>
+
+			<input type="radio" name="lights" value="1">10
+			<br>
+			<input type="radio" name="lights" value="2">13
+			<br>
+			<input type="radio" name="lights" value="3">12 
+			<br>
+			<input type="radio" name="lights" value="4">15
+		</div>
+
+	
+
+		<div class="form-group">
+			<label for="dropdown">How many boxes of eggos did Eleven take from store?</label>
+			<input id="number" type="number" placeholder="Boxes of Eggos" min= "1" max="10" required>	
+		</div>
+
+		<div class="form-group">
+			<label for="favorite-selector">Who is your favorite character?<span>(Check all that apply)</span></label>
+			<input type="checkbox">Eleven
+			<br>
+			<input type="checkbox">Dustin
+			<br>
+			<input type="checkbox">Mike
+			<br>
+			<input type="checkbox">Will
+			<br>
+			<input type="checkbox">Lucas
+			<br>
+			<input type="checkbox">Jim
+			<br>
+			<input type="checkbox">Nancy
+			<br>
+			<input type="checkbox">Jonathan
+			<br>
+			<input type="checkbox">Max
+			<br>
+		</div>
+
+		<div class="form-group">
+			<label for="radio-selector">Are you excited for season 4?</label>
+
+			<input type="radio" name="lights" value="1">Yes
+			<br>
+			<input type="radio" name="lights" value="2">No
+		</div>
+
+		<div class="form-group">
+			<label for="comments">What is your favorite scene?</label>
+			<textarea name="comments" id="comments" placeholder="What is your favorite scene?"></textarea>
+			<br>
+		 <input id="btn-submit" type="submit" value="SUBMIT">
+		</div>
+
+
+	</form>
+
+	</div>
+</body>
+</html>
